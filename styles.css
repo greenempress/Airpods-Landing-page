@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #111;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #eee;
+    z-index: 1000;
+}
+
+#header-img {
+      width: 100px;
+    }
+
+    #nav-bar a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #111;
+      font-weight: bold;
+    }
+
+    #nav-bar a:hover {color: #0071e3}
+
+    
