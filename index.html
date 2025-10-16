@@ -20,10 +20,30 @@
   </header>
 
   <section class="hero">
-    <h1>AirPods – Effortless Wireless Audio</h1>
-    <p>Experience high-quality sound, seamless connectivity, and all-day comfort.</p>
-    <a href="#pricing"><button class="btn">Buy Now</button></a>
-  </section>
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1>
+            AirPods
+            <span class="hero-gradient-text">Effortless Wireless Audio</span>
+          </h1>
+          
+          <p>
+            Experience high-quality sound, seamless connectivity, and all-day comfort.
+          </p>
+          
+          <div>
+            <a href="#pricing" class="btn">Buy Now</a>
+          </div>
+        </div>
+        
+        <div class="hero-image">
+          <img
+            src="https://images.unsplash.com/photo-1606841837239-c5a1a4a07af7?w=1200&h=800&fit=crop"
+            alt="AirPods Pro wireless earbuds"
+          />
+        </div>
+      </div>
+    </section>
 
   <section id="video-section">
     <h2>See AirPods in Action</h2>
@@ -33,35 +53,76 @@
     </video>
   </section>
 
-  <section id="features">git 
+  <section id="features">
     <div class="feature-card">
-      <img src="https://img.icons8.com/ios-filled/50/0071e3/bluetooth.png" alt="Wireless Icon" class="feature-icon">
+      <div class="feature-icon" role="img" aria-label="Wireless Icon">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+          <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+          <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+          <line x1="12" y1="20" x2="12.01" y2="20"></line>
+        </svg>
+      </div>
       <h3>Wireless</h3>
       <p>Instant Bluetooth connection to all your devices.</p>
     </div>
+
     <div class="feature-card">
-      <img src="https://img.icons8.com/ios-filled/50/0071e3/noise-cancelling-headphones.png" alt="Noise Cancellation Icon" class="feature-icon">
+      <div class="feature-icon" role="img" aria-label="Noise Cancellation Icon">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 9v6h4l5 4V5L8 9H4z"></path>
+          <path d="M16.5 8.5a4.5 4.5 0 0 1 0 7"></path>
+          <path d="M19 6a7 7 0 0 1 0 12"></path>
+        </svg>
+      </div>
       <h3>Noise Cancellation</h3>
       <p>Block out distractions and immerse in your music.</p>
     </div>
+
     <div class="feature-card">
-      <img src="https://img.icons8.com/ios-filled/50/0071e3/battery-level.png" alt="Battery Life Icon" class="feature-icon">
+      <div class="feature-icon" role="img" aria-label="Battery Life Icon">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="7" width="16" height="10" rx="2" ry="2"></rect>
+          <line x1="22" y1="11" x2="22" y2="13"></line>
+          <rect x="4" y="9" width="10" height="6" fill="currentColor" stroke="none" rx="1"></rect>
+        </svg>
+      </div>
       <h3>Long Battery Life</h3>
       <p>Enjoy up to 6 hours of listening on a single charge.</p>
     </div>
+
     <div class="feature-card">
-      <img src="https://img.icons8.com/ios-filled/50/0071e3/earbud-headphones.png" alt="Comfort Fit Icon" class="feature-icon">
+      <div class="feature-icon" role="img" aria-label="Comfort Fit Icon">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+        </svg>
+      </div>
       <h3>Comfort Fit</h3>
       <p>Designed for comfort and secure fit all day long.</p>
     </div>
   </section>
+
   <section id="specs">
-    <h2>Specifications</h2>
-    <div class="spec-item"><span class="spec-name">Battery Life</span><span>Up to 6 hours</span></div>
-    <div class="spec-item"><span class="spec-name">Bluetooth</span><span>5.0</span></div>
-    <div class="spec-item"><span class="spec-name">Weight</span><span>4 grams</span></div>
-    <div class="spec-item"><span class="spec-name">Charging Case</span><span>24 hours additional charge</span></div>
-  </section>
+      <div class="specs-container">
+        <h2>Specifications</h2>
+        <div class="spec-item">
+          <span class="spec-name">Battery Life</span>
+          <span class="spec-value">Up to 6 hours</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-name">Bluetooth</span>
+          <span class="spec-value">5.0</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-name">Weight</span>
+          <span class="spec-value">4 grams</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-name">Charging Case</span>
+          <span class="spec-value">24 hours additional charge</span>
+        </div>
+      </div>
+    </section>
 
   <section id="pricing">
     <h2>Only $199</h2>
