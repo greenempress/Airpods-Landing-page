@@ -5,7 +5,7 @@ This project was created to practice layout composition, product presentation, a
 
 
 ## 🌐 Live Demo  
-👉 [View the Live Site](https://airpods-landing-page.vercel.app/)  
+👉 [View the Live Site](https://airpods-landing-page-chi.vercel.app/)  
 
 
 ## 💡 About This Project  
