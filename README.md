@@ -1,7 +1,7 @@
 # 🎧 AirPods Product Landing Page  
 
 A clean, minimal, and responsive **product landing page** showcasing different AirPods models, their features, and pricing — inspired by Apple’s sleek design aesthetic.  
-This project was created to practice layout composition, product presentation, and responsive design techniques using **HTML**, **CSS**, and **JavaScript**.  
+This project was created to practice layout composition, product presentation, and responsive design techniques using **HTML**, **CSS**, and a little **JavaScript**.  
 
 
 ## 🌐 Live Demo  
